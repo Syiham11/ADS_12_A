@@ -1,56 +1,54 @@
-Spesifikasi Kebutuhan Perangkat Lunak (SKPL) - SIPAUD.
+Spesifikasi Kebutuhan Perangkat Lunak (SKPL) - SIMPANGAN.
 
 1. Pendahuluan
-   1.1. Tujuan
-        Dokumen ini ditulis dalam rangka menjabarkan Spesifikasi Kebutuhan Perangkat Lunak software aplikasi system informasi yang akan digunakan oleh Kelompok 2 Mata Kuliah Analisis Design dan System.
-        Penjabaran spesifikasi perangkat lunak meliputi deskripsi umum perangkat lunak dan deskripsi kebutuhan perangkat lunak.
-        Perangkat lunak yang akan dibangun oleh Kelompok 2, bernama SIPAUD.
-        Tujuan software aplikasi SIPAUD adalah MENDEKATKAN HUBUNGAN ORANGTUA DENGAN TIM PENGAJAR dan MUDAH, NYAMAN, EFISIEN KARENA SISTEM SUDAH TERINTEGRASI DENGAN DATABASE TERDITRIBUSI.
+   1.1 Tujuan
+       Dokumen ini ditulis dalam rangka menjabarkan Spesifikasi Kebutuhan Perangkat Lunak software aplikasi system informasi yang akan dipakai Kelompok 12 dalam Matakuliah Analisis Design dan System.
+       Penjabaran spesifikasi perangkat lunak meliputi deskripsi umum perangkat lunak dan deskripsi kebutuhan perangkat lunak.
+       Perangkat lunak yang akan dibangun oleh Kelompok 12 yaitu SIMPANGAN singkatan dari sistem informasi bahan pangan.
+       Tujuan software aplikasi SIMPANGAN ini adalah memberikan informasi harga pangan yang ada dipasar di kota malang, software ini memberi kemudahan pada pengguna dalam mencari informasi karena sudah berupa aplkasi dan dapat di pantau dimanapun dan kapanpun.
    
-   1.2. Lingkup Masalah
-        Untuk melihat perkembangan belajar anak di sekolah, mengurangi dan dapat menghilangkan kebiasaan hal hal yang dilakukan secara manua dan mengurangi penggunaan jumlah kertas, maka SIPAUD adalah sebuah software aplikasi system informasi berbasis web yang digunaan untuk Sekolah Pra-TK atau Paud.
-        SIPAUD merupakan perantara interaksi komunikasi antar orang tua murid dengan Guru serta antar orang tua murid.
-        Sistem informasi didalam SIPAUD banyak memiliki content dan fungsi masing masing.
-        SIPAUD sangat efisien dalam penginputan dan update data. SIPAUD memiliki 4 bottom ada homepage atau halaman utama yaitu, Tombol Home, About, Login, serta Gallery.
-        Pengguna system informasi tersebut awalnya melakukan pendaftaran atau sign up(1 akun hanya mewakili 1 murid), lalu Login/sign in, kemudian untuk panduan aplikasi dan isi semua kegunaan aplikasi ada di menu About.
-        Menu Gallery berisikan bermacam-macam gambar berupa proses belajar-mengajar, kegiatan sekolah, artikel parenting dan lain sebagainya.
-        Lalu terdapat menu post atau kabar tentang perkembangan peserta didik selama proses kegiatan sekolah.
-        Sistem informasi ini ini dikelola oleh admin yakni Guru yang mengajar di sekolah tersebut yang bertugas memperbaharui menu-menu yang ada di SIPAUD.
-        Menu yang akan dilaporkan oleh admin atau guru kepada orang tua murid terdapat berupa penilaian:
-        1.2.1.	Afektif
-        1.2.2. Kognitif
-        1.2.3.	Piskomotorik
-        1.2.4.	IT 
-        1.2.5.	Ngajiku
-        Disetiap icon menu memiliki fungsi masing-masing.
-        Apabila pengguna telah melihat hasil laporan atau report, pemilik akun dapat memberikan feedback berupa komentar.
-        Apabila seorang user lupa dengan password akunnya, maka dapat mimilih icon atau tombol lupa password lalu aan mengikuti proses untuk mendapatkan password baru dan dapat diset kembali agar dapat login.
+   1.2 Lingkup Masalah
+       Untuk melihat perubahan harga yang terjadi di pasar dan keterbatasan informasi kepada masyarakat, maka SIMPANGAN adalah sebuah software aplikasi system informasi berbasis web yang digunaan memberikan informasi kepada masyarakat lebih mudah.
+       Sistem informasi didalam SIMPANGAN banyak memiliki content dan fungsi masing masing.
+       SIPAUD sangat efisien dalam penginputan dan update data. SIMPANGAN memiliki beberapa menu yaitu, menu pemilihan pasar yang digunakan pengguna memilih pasar mana yang diinginkan, lalu ada menu bahan pangan yang menampilkan bahan-bahan pangan yang dijual di pasar dan memiliki harga yang terupdate, dan juga ada menu comment yang di gunakan pengguna untuk memberikan saran dan kritik terhadap harga pangan tersebut.
+       Sistem informasi ini ini dikelola oleh admin yang bertugas mengatur aplikasi dan memberikan update harga serta bekerja sama dengan dinas perdagangan.
+       Menu yang akan dilaporkan oleh admin kepada pengguna:
+       1.2.1.	Harga Bahan Pangan
+       1.2.2. Kesediaan Bahan Pangan
+       1.2.3.	Lokasi Pasar
         
-   1.3. Definisi, Istilah, dan Singkatan
-        a. DFD
-           Data Flow Diagram. Diagram yang menggambarkan aliran data.
-        b. ERD
-           Entity Relationship Diagram. Diagram yang menggambarkan entitas suatu objek beserta relasinya.
-        c. Interface
-           Antarmuka antara perangkat lunak dan pengguna atau user.
-        d. Datastore
-           Tempat menyimpan data setelah di update atau insert data yang terintegrasi dengan database terdistribusi
-        e. ID
-           Identitas pengguna; yaitu: orangtua, guru, siswa, nomor artikel
-   1.4. Aturan Penomoran
+   1.3 Definisi, Istilah, dan Singkatan
+       a. DFD
+          Data Flow Diagram. Diagram yang menggambarkan aliran data.
+       b. ERD
+          Entity Relationship Diagram. Diagram yang menggambarkan entitas suatu objek beserta relasinya.
+       c. Interface
+          Antarmuka antara perangkat lunak dan pengguna atau user.
+       d. Datastore
+          Tempat menyimpan data setelah di update atau insert data yang terintegrasi dengan database terdistribusi
+       e. ID
+          Identitas pengguna; yaitu: pengguna, admin
+   1.4 Aturan Penomoran
         
-   1.5. Referensi 
+   1.5 Referensi 
         
-   1.6. Ikhtisar
-        Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) ini berisikan beberapa bagian besar, antara lain pendahuluan, deskripsi umum perangkat lunak, dan deskripsi kebutuhan.
-        Bagian pendahuluan berisi tujuan penulisan dokumen yang menjelaskan alasan dokumen ini dibuat, lingkup masalah yang berisi ringkasan deskripsi dari software aplikasi yang akan dibuat, definisi, istilah dan singkatan yang digunakan dalam dokumen.
-        Bagian deskripsi umum perangkat lunak berisi deskripsi umum dari sistem yang dibuat, karakteristik pengguna sistem, batasan yang dipakai dalam perangkat lunak itu sendiri, dan lingkungan operasi yang diperuntukan bagi perangkat lunak yang dibuat.
-        Bagian deskripsi kebutuhan di dalam dokumen ini meliputi kebutuhan antarmuka eksternal, kebutuhan fungsional, kebutuhan non fungsional, kebutuhan data, batasan perancangan perangkat lunak, keruntunan, dan ringkasan dari kebutuhan perangkat lunak, baik itu kebutuhan fungsional maupun kebutuhan non fungsional.
-        Kebutuhan antarmuka eksternal meliputi antarmuka pemakai, antarmuka perangkat keras, antarmuak perangkat lunak, dan antarmuka komunikasi.
-        Kebutuhan fungsional dan kebutuhan non fungsional perangkat lunak diuraikan dengan lengkap di bagian ini dan ringkasan dari kebutuhan perangkat lunak yang dibuat disertakan dalam dokumen ini.
-        Kebutuhan fungsional perangkat lunak digambarkan dalam bentuk Data Flow Diagram (DFD), di mana DFD yang dibuat meliputi diagram konteks, DFD level 1, dan DFD level 2.
-        Data store dari DFD yang dibuatpun dijelaskan di dalam dokumen ini.
-        Selain DFD, kebutuhan fungsional perangkat lunak digambarkan dalam spesifikasi proses.
-        Kebutuhan data dari perangkat lunak digambarkan dalam Entity Relationship Diagram (E-R Diagram).
-        Batasan perancangan dari perangkat lunak yang akan dibuat tentunya harus dijelaskan dalam dokumen ini agar pengembang perangkat lunak lebih mudah dalam melakukan pekerjaannya.
-        Keruntunan dari perangkat lunak yang dibuat digambarkan dengan cara mapping kebutuhan fungsional dengan proses pada DFD dan mapping data store DFD dengan Entity-Relationship Diagram.
+   1.6 Ikhtisar
+       Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SKPL) ini berisikan beberapa bagian besar, antara lain pendahuluan, deskripsi umum perangkat lunak, dan deskripsi kebutuhan.
+       Bagian pendahuluan berisi tujuan penulisan dokumen yang menjelaskan alasan dokumen ini dibuat, lingkup masalah yang berisi ringkasan deskripsi dari software aplikasi yang akan dibuat, definisi, istilah dan singkatan yang digunakan dalam dokumen.
+       Bagian deskripsi umum perangkat lunak berisi deskripsi umum dari sistem yang dibuat, karakteristik pengguna sistem, batasan yang dipakai dalam perangkat lunak itu sendiri, dan lingkungan operasi yang diperuntukan bagi perangkat lunak yang dibuat.
+       Bagian deskripsi kebutuhan di dalam dokumen ini meliputi kebutuhan antarmuka eksternal, kebutuhan fungsional, kebutuhan non fungsional, kebutuhan data, batasan perancangan perangkat lunak, keruntunan, dan ringkasan dari kebutuhan perangkat lunak, baik itu kebutuhan fungsional maupun kebutuhan non fungsional.
+       Kebutuhan antarmuka eksternal meliputi antarmuka pemakai, antarmuka perangkat keras, antarmuak perangkat lunak, dan antarmuka komunikasi.
+       Kebutuhan fungsional dan kebutuhan non fungsional perangkat lunak diuraikan dengan lengkap di bagian ini dan ringkasan dari kebutuhan perangkat lunak yang dibuat disertakan dalam dokumen ini.
+       Kebutuhan fungsional perangkat lunak digambarkan dalam bentuk Data Flow Diagram (DFD), di mana DFD yang dibuat meliputi diagram konteks, DFD level 1, dan DFD level 2.
+       Data store dari DFD yang dibuatpun dijelaskan di dalam dokumen ini.
+       Selain DFD, kebutuhan fungsional perangkat lunak digambarkan dalam spesifikasi proses.
+       Kebutuhan data dari perangkat lunak digambarkan dalam Entity Relationship Diagram (E-R Diagram).
+       Batasan perancangan dari perangkat lunak yang akan dibuat tentunya harus dijelaskan dalam dokumen ini agar pengembang perangkat lunak lebih mudah dalam melakukan pekerjaannya.
+       Keruntunan dari perangkat lunak yang dibuat digambarkan dengan cara mapping kebutuhan fungsional dengan proses pada DFD dan mapping data store DFD dengan Entity-Relationship Diagram.
+        
+2. Deskripsi Umum Perangkat Lunak
+   2.1 Deskripsi Umum Sistem
+       Sistem 
+   2.2 Karakteristik Pengguna
+   2.3 Batasan
+   2.4 Lingkungan Operasi
