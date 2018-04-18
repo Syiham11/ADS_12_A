@@ -48,7 +48,56 @@ Spesifikasi Kebutuhan Perangkat Lunak (SKPL) - SIMPANGAN.
         
 2. Deskripsi Umum Perangkat Lunak
    2.1 Deskripsi Umum Sistem
-       Sistem 
+       SIMPANGAN atau Sistem InformasiBahan Pangan merupakan aplikasi berbasis web yang memberikan informasi tentang bahan pangan yang ada di pasar kota malang. Pengguna dapat login atau hanya melihat sebagai guest, bila pengguna sudah memiliki akun dan login, pengguna dapat memberikan saran dan kritik didalam aplikasi tersebut.
+       Pada aplikasi tersedia menu untuk pengguna mencari pasar yang mereka ingin pilih dan setelah itu menampilkan bahan-bahan pangan yang ada di pasar tersebut dengan memberikan harga yang terupdate.
+       Apabila terjadi update harga pengguna yang memiliki akun akan diberikan notifikasi atau pemberitahuan. 
+       Sistem ini dikelola oleh admin yang bekerja sama dengan dinas perdagangan yang dapat mengupdate harga pada aplikasi ini.
+       
    2.2 Karakteristik Pengguna
+       Pengguna                | Tugas                                          |Hak Akses Aplikasi             |
+       Admin                   - Mengelola aplikasi dan mengupdate harga        - Sign in sebagai admin, control harga
+       Quest                   - Melihat harga pangan pada aplikasi             - Tidak ada
+       Pengguna yang terdaftar - Melihat harga pangan dan memberikan komentar   - Sign in sebagai pengguna
+   
    2.3 Batasan
+       Dalam pembuatan perangkat lunak ini, ada beberapa batasan yang digunakan, yaitu:
+       - Jika ingin memberikan komentar harus melakukan sign in sebagau pengguna
+       - Jika ini membuka di smartphone harus menginstall aplikasi ini
+       - Aplikasi harus berfungsi pada platform windows dan linux
+   
    2.4 Lingkungan Operasi
+       Aplikasi Client server ini akan berfungsi dengan spesifikasi : 
+       Server : 
+       Komputer dengan spesifikasi hardware minimal sebagai berikut : 
+       - Processor Intel Pentium 4 3 Ghz 
+       - Motherboard support internet connection 
+       - 2 GB RAM  500 GB Hard Disk Drive utama 
+       - 500 GB Hard Disk Drive backup  VGA Card 256 MB 
+       - NIC FastEthernet atau Gigabit Ethernet 
+       - Mouse 
+       - Keyboard 
+       - Monitor
+       
+       Komputer yang minimal telah terinstall software sebagai berikut : 
+       - Browser Google Chrome/Mozilla Firefox
+       
+       Client : 
+       Komputer dengan spesifikasi hardware minimal sebagai berikut :
+       - Processor Intel Pentium 4 2 Ghz 
+       - Motherboard support internet connection
+       - 1 GB RAM 
+       - 80 GB Hard Disk Drive 
+       - VGA Card 64 MB 
+       - Mouse 
+       - Keyboard
+       
+3. Deskripsi Kebutuhan
+   3.1 Kebutuhan Antarmuka Eksternal
+       
+   
+   3.2 Kebutuhan Fungsional
+   3.3 Kebutuhan Data
+   3.4 Kebutuhan Non Fungsional
+   3.5 Batasan Perancangan
+   3.6 Kerunutan(tracebility)
+   3.7 Ringkasan Kebutuhan
