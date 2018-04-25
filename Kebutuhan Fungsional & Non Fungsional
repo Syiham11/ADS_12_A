@@ -1,0 +1,16 @@
+Kebutuhan Fungsional
+•	Sistem dapat menampilkan daftar harga bahan pokok (pangan)
+•	Sistem dapat mengupdate harga secara real-time
+•	Pengguna dapat mencari barang yang diinginkan
+•	Harga divalidasi oleh dinas perdagangan di setiap daerah
+
+Kebutuhan Non – Fungsional
+•	Operasioanl
+  - Menggunakan OS windows berbasis web
+  - Membutuhkan akses internet
+•	Performa
+  - Kecepatan proses akses tidak lebih dari 10 detik
+•	Security
+  - Proses insert dan update data hanya dapat dilakukan oleh admin
+•	Cultural & Political
+  - Sistem dapat dioperasikan dalam bahasa Indonesia
