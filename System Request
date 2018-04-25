@@ -1,0 +1,15 @@
+SIMPANGAN (Sistem InformasiBahan Pangan)
+
+#Project Sponsor 
+ - Dinas Perdagangan dan Perindustrian di Malang
+#Business Needs
+ - Memberikan pemerataan harga
+#Memberikan update harga yang terbaru
+ - Business Requirement
+#Informasi tentang harga bahan pokok
+ - Business Value
+ - Terciptanya pemerataan harga
+ - Masyarakat dapat memantau harga
+ - Mengefektifkan operasi pasar
+#Special Issues
+ - Sistem dibangun berbasis web responsif
