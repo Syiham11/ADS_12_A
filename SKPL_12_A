@@ -93,11 +93,58 @@ Spesifikasi Kebutuhan Perangkat Lunak (SKPL) - SIMPANGAN.
        
 3. Deskripsi Kebutuhan
    3.1 Kebutuhan Antarmuka Eksternal
+       3.1.1 AntarMmuka pemakai
+       User interface yang digunakan mengoperasikan Perangkat Lunak SIMPANGAN antara lain:
+       - Tampilan awal web
+       - Tampilan Login
+       - Tampilan sign up
+       - Tampilan pemilihan pasar
+       - Tampilan daftar harga
+       - Tampilan komentar
+       - Keyboard
+       - Mouse
+       - Monitor
        
-   
+       3.1.2 Antarmuka Perangkat Keras
+       Antarmuka perangkat keras yang digunakan untuk mengoperasikan antara lain :
+       - Smartphone
+       - Monitor
+       
+       3.1.3 Antarmuka Perangkat Lunak
+       Antarmuka perangakat lunak yang digunakan untuk mengoperasikan antara lain :
+       - API Logistik
+    
    3.2 Kebutuhan Fungsional
+       - Perangkat lunak dapat menampilkan form login/ sign in
+       - Perangkat lunak dapat menampilkan form pendaftaran/ sign up
+       - Perangkat lunak dapat menerima masukan username dan password
+       - Perangkat lunak dapat menampilkan katalog atau daftar bahan pangan
+       - Perangkat lunak dapat menampilkan daftar pasar yang ada
+       - Perangkat lunak dapat menampilkan form komentar
+       - Perangkat lunak dapat memperbaruhi katalog atau daftar bahan pangan
+       
    3.3 Kebutuhan Data
+       
    3.4 Kebutuhan Non Fungsional
+       - Operaional
+         = Menggunakan OS windows berbasis web
+         = Membutuhkan akses internet
+       - Performa
+         = Kecepatan proses akses tidak lebih dari 10 detik
+       - Security
+         = Proses insert dan update data hanya dapat dilakukan oleh admin
+       - Cultural dan Politcal
+         = Sistem dapat dioperasikan dalam bahasa Indonesia
+       
    3.5 Batasan Perancangan
+       Batasan perancangan yang dipakai dalam pengembangan perangkat lunak SIMPANGAN antara lain:
+       - Bahasa pemrograman yang digunakan adalah Java
+       - Tampilan web dibuat dengan menggunakan photoshop
+       
    3.6 Kerunutan(tracebility)
+       
+       
    3.7 Ringkasan Kebutuhan
+       Perangkat lunak yang dibuat memiliki dua jenis kebutuhan yaitu kebutuhan fungsional dan kebutuhan non-fungsional.
+       Kebutuhan ini mencerminkan semua hal yang harus dipenuhi, dan nantinya akan menjadi arahan untuk tahap selanjutnya yaitu testing, karena pada dasarnya semua kebutuhan harus dilakukan tes.
+       
