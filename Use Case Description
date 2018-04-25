@@ -1,0 +1,23 @@
+# Use Case
+# User / Actor : 
+1.	Melihat daftar harga (pada website)
+2.	Memilih kategori
+3.	Memilih wilayah
+4.	Melakukan pencarian
+5.	Memberikan ulasan
+#	Admin / Actor : 
+1.	Melakukan login sebagau admin
+2.	Melakukan pengolahan citra
+3.	Melakukan validasi data
+
+
+# Use Case Description
+*	Use Case Name : “Memberikan Ulasan”
+*	Actor : User
+*	Description : User dapat memberikan ulasan atau komentar terhadap barang pada website
+*	Trigger : Ketidaksesuaian harga barang
+*	Pre Condition : 
+  -	Tampilan awal website
+  -	Tampilan login
+*	Normal Course : mengisi (mengetikkan) ulasan / komentar
+*	Post Condition : Menampilkan hasil ulasan
