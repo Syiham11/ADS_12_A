@@ -4,12 +4,15 @@
 	background-size: cover;
 	color:#FBF5F6;
 }
+#text{
+	margin-top:200;
+}
 #btStart {
-	margin-top:230px;
+	margin-top: 50px;
 	box-shadow: 7px 9px 37px #151515;
 	-webkit-box-shadow: 7px 9px 37px #151515;
 }
 #ldTitle {
-	margin-top:70px;
+	margin-top: 200px;
 	
 }
