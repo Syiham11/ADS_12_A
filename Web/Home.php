@@ -15,6 +15,10 @@ $send= $mysqli->query('SELECT nama FROM data_pasar');
 
 
 ?>
+<<<<<<< HEAD
+
+=======
+>>>>>>> 2400cccdd8f3beac03a6f64b1df7e36c23f9d377
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,6 +26,49 @@ $send= $mysqli->query('SELECT nama FROM data_pasar');
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Home</title>
+<<<<<<< HEAD
+
+
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="login.css" rel="stylesheet">
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<nav class="navbar">
+<div class="container-fluid">
+   
+    
+  <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header"> <a class="navbar-brand" href="#">Simpangan</a></div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="defaultNavbar1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="/simpangan.com">Home<span class="sr-only"></span></a></li>
+      </ul>
+<form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Cari Sesuatu">
+        </div>
+        <button type="submit" class="btn btn-default">Cari</button>
+      </form>
+<ul class="nav navbar-nav navbar-right">
+        
+        <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Hubungi Kami<span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li class="divider"></li>
+            <li><a href="#">0321-1177112</a></li>
+            <li><a href="#">ipasar@mail.go.id</a></li>
+          </ul>
+        </li>
+=======
 <link href="css/bootstrap.css" rel="stylesheet">
 <link href="login.css" rel="stylesheet">
 <link href="landingstyle.css" rel="stylesheet">
@@ -46,6 +93,7 @@ $send= $mysqli->query('SELECT nama FROM data_pasar');
         
       </form>
       <ul class="nav navbar-nav navbar-right">
+>>>>>>> 2400cccdd8f3beac03a6f64b1df7e36c23f9d377
         <li class="active">
           <a onclick="document.getElementById('id01').style.display='block'" style="width:auto;">
           Sign Up/ Sign In</a>
@@ -54,9 +102,15 @@ $send= $mysqli->query('SELECT nama FROM data_pasar');
 </div>
 <!-- /.navbar-collapse --> 
   </div>
+<<<<<<< HEAD
+<!-- /.container-fluid --> 
+</nav>
+<div class="container-fluid">
+=======
 
 </nav>
 <div>
+>>>>>>> 2400cccdd8f3beac03a6f64b1df7e36c23f9d377
   <h1 class="text-center">Pilih Pasar</h1>
   <div class="row">
   
@@ -92,6 +146,8 @@ $send= $mysqli->query('SELECT nama FROM data_pasar');
     </div>
   </div>
 </div>
+<<<<<<< HEAD
+=======
 <div class="row">
   <div class="col-sm-4 text-center">
     <h4>Beri <strong>Bintang</strong></h4>
@@ -112,6 +168,7 @@ $send= $mysqli->query('SELECT nama FROM data_pasar');
     <p>Using the insert panel, add labels to your page by using the label component.</p>
     <span class="label label-warning">VISI</span><span class="label label-danger">MISI</span></div>
 </div>
+>>>>>>> 2400cccdd8f3beac03a6f64b1df7e36c23f9d377
 <div class="panel-footer">
 <div class="row">
     <div class="text-center">

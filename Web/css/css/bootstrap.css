@@ -275,17 +275,16 @@ th {
   src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
-	position: relative;
-	/* [disabled]top: 1px; */
-	display: inline;
-	font-family: 'Glyphicons Halflings';
-	font-style: normal;
-	font-weight: normal;
-	line-height: 1;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	left: 0px;
-	right: 0px;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .glyphicon-asterisk:before {
   content: "\2a";
@@ -1075,7 +1074,9 @@ th {
   content: "\e260";
 }
 * {
-	margin: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
 }
 *:before,
 *:after {
@@ -1114,10 +1115,9 @@ a:focus {
   text-decoration: underline;
 }
 a:focus {
-	outline: thin dotted;
-	outline: 5px auto -webkit-focus-ring-color;
-	outline-offset: -2px;
-	position: static;
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
 }
 figure {
   margin: 0;
@@ -1136,8 +1136,8 @@ img {
 }
 .img-rounded {
 	border-radius: 6px;
-	/* [disabled]height: 250px; */
-	/* [disabled]width: 250px; */
+	height: 250px;
+	width: 250px;
 }
 .img-thumbnail {
   display: inline-block;
@@ -1611,11 +1611,12 @@ pre code {
   margin-left: auto;
 }
 .row {
-	margin: 0;
+  margin-right: -15px;
+  margin-left: -15px;
 }
 .col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
-	position: static;
-	/* [disabled]min-height: 1px; */
+	position: relative;
+	min-height: 1px;
 	padding-right: 15px;
 	padding-left: 15px;
 	color: inherit;
@@ -1648,7 +1649,7 @@ pre code {
   width: 41.66666667%;
 }
 .col-xs-4 {
-	width: 20%;
+  width: 33.33333333%;
 }
 .col-xs-3 {
   width: 25%;
@@ -1805,7 +1806,7 @@ pre code {
     width: 41.66666667%;
   }
   .col-sm-4 {
-	width: 30.333%;
+    width: 33.33333333%;
   }
   .col-sm-3 {
     width: 25%;
@@ -3023,7 +3024,7 @@ select[multiple].form-group-lg .form-control {
 	outline: thin dotted;
 	outline: 5px auto -webkit-focus-ring-color;
 	outline-offset: -2px;
-	position: static;
+	position: relative;
 }
 .btn:hover,
 .btn:focus,
