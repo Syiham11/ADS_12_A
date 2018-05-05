@@ -15,7 +15,10 @@ $send= $mysqli->query('SELECT nama FROM data_pasar');
 
 
 ?>
+<<<<<<< HEAD
 
+=======
+>>>>>>> 2400cccdd8f3beac03a6f64b1df7e36c23f9d377
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,6 +26,7 @@ $send= $mysqli->query('SELECT nama FROM data_pasar');
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Home</title>
+<<<<<<< HEAD
 
 
 <link href="css/bootstrap.css" rel="stylesheet">
@@ -64,6 +68,32 @@ $send= $mysqli->query('SELECT nama FROM data_pasar');
             <li><a href="#">ipasar@mail.go.id</a></li>
           </ul>
         </li>
+=======
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="login.css" rel="stylesheet">
+<link href="landingstyle.css" rel="stylesheet">
+</head>
+<body #landing>
+<nav class="navbar navbar-inverse" >
+<div >
+  <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header"> 
+    
+    <a class="navbar-brand" href="#">Simpangan</a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="defaultNavbar1">
+    <form class="navbar-form navbar-left" role="search" >
+        <div class="form-group" >
+          <input type="text" class="form-control" placeholder="Cari Sesuatu">
+          <button type="submit" class="btn btn-default">
+          <span class="glyphicon glyphicon-search"></span>
+          </button>
+        </div>
+        
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+>>>>>>> 2400cccdd8f3beac03a6f64b1df7e36c23f9d377
         <li class="active">
           <a onclick="document.getElementById('id01').style.display='block'" style="width:auto;">
           Sign Up/ Sign In</a>
@@ -72,9 +102,15 @@ $send= $mysqli->query('SELECT nama FROM data_pasar');
 </div>
 <!-- /.navbar-collapse --> 
   </div>
+<<<<<<< HEAD
 <!-- /.container-fluid --> 
 </nav>
 <div class="container-fluid">
+=======
+
+</nav>
+<div>
+>>>>>>> 2400cccdd8f3beac03a6f64b1df7e36c23f9d377
   <h1 class="text-center">Pilih Pasar</h1>
   <div class="row">
   
@@ -110,6 +146,29 @@ $send= $mysqli->query('SELECT nama FROM data_pasar');
     </div>
   </div>
 </div>
+<<<<<<< HEAD
+=======
+<div class="row">
+  <div class="col-sm-4 text-center">
+    <h4>Beri <strong>Bintang</strong></h4>
+    <p>Quickly add buttons to your page by using the button component in the insert panel. </p>
+    <button type="button" class="btn btn-info btn-sm">Info </button>
+    <button type="button" class="btn btn-success btn-sm">Tambah bintang</button>
+  </div>
+  <div class="text-center col-sm-4">
+    <h4>Hubungi<strong> Kami</strong></h4>
+    <p>Berikan kritik dan saran anda kepada kami secara langsung</p>
+      <div class="col-xs-4"><span class="glyphicon glyphicon-menu-hamburger"></span></div>
+      <div class="col-xs-4"><span class="glyphicon glyphicon-home" ></span></div>
+      <div class="col-xs-4"><span class="glyphicon glyphicon-envelope" ></span></div>
+    
+  </div>
+  <div class="text-center col-sm-4">
+    <h4>Tentang <strong>Kami</strong></h4>
+    <p>Using the insert panel, add labels to your page by using the label component.</p>
+    <span class="label label-warning">VISI</span><span class="label label-danger">MISI</span></div>
+</div>
+>>>>>>> 2400cccdd8f3beac03a6f64b1df7e36c23f9d377
 <div class="panel-footer">
 <div class="row">
     <div class="text-center">
