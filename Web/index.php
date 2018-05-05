@@ -23,44 +23,19 @@
 <body>
 
 <div class="container-fluid" id="landing">
-  <div class="row">
+  <div class="row" id="btsign" align="right" >
   <button type="button" class="btn btn-success btn-sm" onclick="document.getElementById('id01').style.display='block'" style="width:auto;" >
-          Sign Up/ Sign In</button>
-  <h1 class="text-center" id="ldTitle"><strong>SIMPANGAN </strong></h1>
+  <span class="glyphicon glyphicon-user"></span>
+          Sign Up/ Sign In
+          </button>
+  <h1 class="text-center" id="ldTitle" id="text"><strong>SIMPANGAN </strong></h1>
 <div class="text-center"> SIMPANGAN merupakan sebuah sistem Informasi harga bahan pangan yang berada di pasar-pasar tradisional </div>
 </div>
   <div class="text-center" >
     <input type="button" id="btStart" class="btn btn-lg btn-default" value="Yuk Belanjaaa..." onclick="document.location='Home.php';" >
   </div>
 </div>
-<div class="row">
-  <div class="col-sm-4 text-center">
-    <h4>Beri <strong>Bintang</strong></h4>
-    <p>Quickly add buttons to your page by using the button component in the insert panel. </p>
-    <button type="button" class="btn btn-info btn-sm">Info </button>
-    <button type="button" class="btn btn-success btn-sm">Tambah bintang</button>
-  </div>
-  <div class="text-center col-sm-4">
-    <h4>Hubungi<strong> Kami</strong></h4>
-    <p>Berikan kritik dan saran anda kepada kami secara langsung</p>
-      <div class="col-xs-4"><span class="glyphicon glyphicon-menu-hamburger"></span></div>
-      <div class="col-xs-4"><span class="glyphicon glyphicon-home" ></span></div>
-      <div class="col-xs-4"><span class="glyphicon glyphicon-envelope" ></span></div>
-    
-  </div>
-  <div class="text-center col-sm-4">
-    <h4>Tentang <strong>Kami</strong></h4>
-    <p>Using the insert panel, add labels to your page by using the label component.</p>
-    <span class="label label-warning">VISI</span><span class="label label-danger">MISI</span></div>
-</div>
-<div class="panel-footer">
-  <div class="row">
-    <div class="text-center">
-      <h4>Harga yang pas untuk anda</h4>
-      <p>Copyright &copy; 2018 &middot; All Rights Reserved &middot; <a href="http://simpangan.com/">simpangan.com</a></p>
-    </div>
-  </div>
-</div>
+
 <div id="id01" class="modallg">
   
   <form class="modal-contentlg animatelg" action="/Home.php">
