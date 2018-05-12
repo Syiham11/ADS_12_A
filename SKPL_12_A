@@ -167,7 +167,19 @@ Spesifikasi Kebutuhan Perangkat Lunak (SKPL) - SIMPANGAN.
        - Tampilan web dibuat dengan menggunakan photoshop
        
    3.6 Kerunutan(tracebility)
-       
+       Suatu perangkat lunak yang baik memiliki kebutuhan fungsional yang dapat dirunut model analisisnya. Berikut ini adalah tabel yang berisi traceability dari hasil analisis kebutuhan perangkat lunak Sistem Informasi Harga Bahan Pangan.
+   
+   3.6.1 Kebutuhan Fungsional vs proses
+         Mapping kebutuhan fungsional dengan proses pada DFD untuk perangkat lunak Sistem Informasi Harga Bahan Pangan adalah sebagai berikut:
+   
+   3.6.2 Data Store vs E-R
+         Mapping data store pada DFD dengan Entity –Relasi untuk perangkat lunak Sistem Informasi Harga Bahan Pangan adalah sebagai berikut :
+         
+         Data Store                             Entity                                                                  Deskripsi
+         user                                   id_user, nama, komen_user, alamat                                       Tabel ini berisikan apa-apa tentang user yang mengakses website kita
+         barang                                 id_barang, jenis_barang, deskripsi_barang, foto_barang                  Tabel ini berisikan informasi mengenai barang-barang apa saja yang ada di pasar
+         harga_barang                           nasional_harga, tanggal_harga, lokal_harga                              Tabel ini berisikan informasi mengenai harga bahan pangan baik nasional maupun lokal
+         data_pasar                             id_pasar, alamat_pasar, foto_pasar                                      Tabel ini berisikan informasi mengenai pasar
        
    3.7 Ringkasan Kebutuhan
        Perangkat lunak yang dibuat memiliki dua jenis kebutuhan yaitu kebutuhan fungsional dan kebutuhan non-fungsional.
