@@ -1,6 +1,4 @@
-<?php
-
-?>
+<?php include 'login.php';?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36,34 +34,6 @@
   </div>
 </div>
 
-<div id="id01" class="modallg">
-  
-  <form class="modal-contentlg animatelg" action="/Home.php">
-    <div class="imgcontainerlg">
-      <span onclick="document.getElementById('id01').style.display='none'" class="closelg" title="Close Modal">&times;</span>
-      <img src="img_avatar2.png" alt="Avatar" class="avatarlg">
-    </div>
-
-    <div class="containerlg"><div class="lg">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-        
-      <button class="lg" type="submit">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-    </div>
-    </div>
-
-    <div class="containerlg" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
-  </form>
-</div>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="js/jquery-1.11.2.min.js"></script>
 

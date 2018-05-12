@@ -11,7 +11,7 @@ input[type=text], input[type=password] {
 }
 
 /* Set a style for all buttons */
-lg {
+#lgbutton {
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -20,11 +20,21 @@ lg {
     cursor: pointer;
     width: 100%;
 }
-
-buttonlg:hover {
-    opacity: 0.8;
+#subutton {
+    background-color: rgba(61,147,183,1.00);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
 }
 
+button:hover {
+    opacity: 0.8;
+}
+#pasar_img:hover{opacity:1.0;}
+#pasar_img {opacity:0.2;}
 /* Extra styles for the cancel button */
 .cancelbtn {
     width: auto;
