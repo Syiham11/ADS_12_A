@@ -29,7 +29,25 @@ Spesifikasi Kebutuhan Perangkat Lunak (SKPL) - SIMPANGAN.
        e. ID
           Identitas pengguna; yaitu: pengguna, admin
    1.4 Aturan Penomoran
-        
+       |Nama-ID                     |Aturan Penamaan                     |Deskripsi
+        Kebutuhan Fungsional         SRS-F-IN/PR/OUT-xxx                  SRS adalah System Requirement Summary,
+                                                                          F adalah Fungsional,
+                                                                          IN menunjukkan operasi Input,
+                                                                          PR menunjukkan operasi Proses,
+                                                                          OUT menunjukkan output,
+                                                                          xxx adalah nomor SRS-Id.
+                                                                          
+        Kebutuhan Non Fungsional     SRS-NF-IN/PR/OUT-xxx                 SRS adalah System Requirement Summary,
+                                                                          NF adalah non-Fungsional,
+                                                                          IN menunjukkan operasi Input,
+                                                                          PR menunjukkan operasi Proses,
+                                                                          OUT menunjukkan operasi Output,
+                                                                          xxx adalah nomor SRS-Id.
+                                                                          
+        Bubble                       DFD-X-Y.Z                            DFD adalah Data Flow Diagram,
+                                                                          X adalah nomor level diagram,
+                                                                          Y.Z adalah nomer pada buble diagram.
+
    1.5 Referensi 
         
    1.6 Ikhtisar
